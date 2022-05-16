@@ -9,24 +9,13 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_temp"
+            android:id="@+id/nav_help"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_temp" />
+            android:title="@string/menu_help" />
         <item
-            android:id="@+id/nav_vlag"
+            android:id="@+id/nav_uved"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_vlag" />
-        <item
-            android:id="@+id/nav_prir_gaz"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_prirod_gaz" />
-        <item
-            android:id="@+id/nav_dim"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_dim" />
-        <item
-            android:id="@+id/nav_atm_dav"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_atm_dav" />
+            android:title="@string/menu_uved" />
+
     </group>
 </menu>

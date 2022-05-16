@@ -17,7 +17,7 @@ import android.widget.ListView;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.example.interface1.ui.prir_gaz.GazFragment;
+import com.example.interface1.ui.notif.NotifFragment;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -49,7 +49,7 @@ public class foreService extends Service {
         Bundle bundle = new Bundle();
         String input = intent.getStringExtra("inputExtra");
         createNotificationChannel();
-        Intent notificationIntent = new Intent(this, GazFragment.class);//!!!!!!!!
+        Intent notificationIntent = new Intent(this, NotifFragment.class);//!!!!!!!!
         PendingIntent pendingIntent = PendingIntent.getActivity(this,
                 0, notificationIntent, 0);
         Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
