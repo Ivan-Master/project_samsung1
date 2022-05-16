@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "771918072938",
+    "firebase_url": "https://basedategas-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "basedategas",
+    "storage_bucket": "basedategas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771918072938:android:119348231347b13ab2ce13",
+        "android_client_info": {
+          "package_name": "com.example.gas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771918072938-82vut9nr8q8pi68jehkqe5ctkovrh3ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGhj6zVtYTduk7rHiN9xJh0ooPV3swMaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771918072938-82vut9nr8q8pi68jehkqe5ctkovrh3ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771918072938:android:ec8ffacf3a07125bb2ce13",
+        "android_client_info": {
+          "package_name": "com.example.interface1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771918072938-82vut9nr8q8pi68jehkqe5ctkovrh3ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGhj6zVtYTduk7rHiN9xJh0ooPV3swMaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771918072938-82vut9nr8q8pi68jehkqe5ctkovrh3ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

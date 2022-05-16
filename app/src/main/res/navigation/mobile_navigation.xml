@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.interface1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_temp"
+        android:name="com.example.interface1.ui.temperature.TemperatureFragment"
+        android:label="@string/menu_temp"
+        tools:layout="@layout/fragment_temp" />
+    <fragment
+        android:id="@+id/nav_prir_gaz"
+        android:name="com.example.interface1.ui.prir_gaz.GazFragment"
+        android:label="@string/menu_prirod_gaz"
+        tools:layout="@layout/fragment_smoke" />
+    <fragment
+        android:id="@+id/nav_atm_dav"
+        android:name="com.example.interface1.ui.atm_dav.AtmDavFragment"
+        android:label="@string/menu_atm_dav"
+        tools:layout="@layout/fragment_atm_dav"/>
+    <fragment
+        android:id="@+id/nav_vlag"
+        android:name="com.example.interface1.ui.vlag.VlagFragment"
+        android:label="@string/menu_vlag"
+        tools:layout="@layout/fragmen_vlag" />
+    <fragment
+        android:id="@id/nav_dim"
+        android:name="com.example.interface1.ui.smoke.SmokeFragment"
+        android:label="@string/menu_dim"
+        tools:layout="@layout/fragment_smoke"/>
+
+
+</navigation>

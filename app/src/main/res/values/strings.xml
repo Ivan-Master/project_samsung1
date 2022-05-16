@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Interface1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Датчик 1</string>
+    <string name="nav_header_subtitle">Комната: Ванная</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_temp">Температура</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name='menu_vlag'>Влажность</string>
+    <string name='menu_prirod_gaz'>Природный газ</string>
+    <string name='menu_dim'>Дым</string>
+    <string name='menu_atm_dav'>Атмосферное давление</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
